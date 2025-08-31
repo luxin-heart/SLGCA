@@ -5,7 +5,7 @@
 #Overview
 As shown in Figure 1, the SLGCA framework takes the preprocessed gene expression matrix and spatial adjacency matrix as input. A contrastive view is generated through data augmentation of the original input, and both views are fed into a shared GCN encoder to obtain latent embeddings. SLGCA adopts a dual-channel cross-level contrastive learning strategy: local-level contrast captures relationships between nodes and their neighborhoods, while global-level contrast ensures structural consistency across the entire dataset. Following encoding, a symmetric decoder reconstructs the gene expression matrix, and an inner product decoder reconstructs the adjacency matrix. The model is trained using a combination of reconstruction and contrastive loss, ensuring effective integration of spatial and gene expression features. After training, the reconstructed gene expression matrix is reduced via PCA, and spatial domains are identified through clustering methods such as Mclust or Leiden.
 
-##Requirements
+#Requirements
 You'll need to install the following packages in order to run the codes.
 python==3.10
 torch==2.2.2
