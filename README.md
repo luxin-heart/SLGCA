@@ -30,4 +30,4 @@ For a step-by-step tutorial, see the tutorial folder.
 In addition, we have saved the clustering results of SLGCA on the DLPFC dataset into the adata.h5ad file of the dataset. You can directly reproduce and obtain our results using the sample code provided.
 
 # Download data
-The data we used for training can be downloaded from https://zenodo.org/records/15860656. We also provide datasets processed by SLGCA, which can be downloaded from Dataset folder (in h5ad format, where obs['SLGCA'] is the clustering result, obsm['emb_pca'] is the low-dimensional feature
+The data we used for training can be downloaded from https://zenodo.org/records/15860656. We also provide DLPFC datasets processed by SLGCA, which can be downloaded from [Dataset folder](https://zenodo.org/records/15860656) (in h5ad format, where obs['SLGCA'] is the clustering result, obsm['emb_pca'] is the low-dimensional feature
